@@ -10,7 +10,7 @@ This is a speech recognition application using Python. It allows users to select
 
 ## Requirements
 - Python 3.10 or higher
-- `ffmpeg` for audio format conversion
+- `ffmpeg` for audio format conversion (ONLY if you would want to use additional audio format other than '.wav')
 
 ## Installation
 
@@ -21,3 +21,19 @@ cd Voice-To-Text
 ```
 ### 2. Install Dependencies
 Use pip to install the required libraries:
+'''bash
+pip install SpeechRecognition pydub
+'''
+
+### 3. Install ffmpeg (OPTIONAL)
+If you would want to support other audio format other than '.wav'
+Make sure ffmpeg is installed and accessible in your system's PATH. You can download ffmpeg from ffmpeg.org
+
+### 4. Run the Application
+'''bash
+python main.py
+'''
+
+
+
+
