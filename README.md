@@ -17,6 +17,8 @@ This is a speech recognition application using Python. It allows users to select
 ### 1. Clone the Repository
 ```
 git clone https://github.com/Mythventor/Voice-To-Text.git
+```
+```
 cd Voice-To-Text
 ```
 ### 2. Install Dependencies
