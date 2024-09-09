@@ -16,8 +16,8 @@ This is a speech recognition application using Python. It allows users to select
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/speech-recognition-app.git
+git clone 
 cd speech-recognition-app
-``
-2. Install Dependencies
+```
+### 2. Install Dependencies
 Use pip to install the required libraries:
