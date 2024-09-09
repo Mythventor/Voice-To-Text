@@ -54,16 +54,17 @@ def start_recognition():
 
 # Supported languages
 languages = {
-    "Cantonese (Traditional)": "yue-Hant",
     "English (US)": "en-US",
     "English (UK)": "en-GB",
+    "Cantonese (Traditional)": "yue-Hant",
     "Mandarin (Simplified)": "zh-CN",
+    "Vietnamese": "vi-VN",
     "Spanish": "es-ES",
     "French": "fr-FR",
     "German": "de-DE",
     "Japanese": "ja-JP",
     "Korean": "ko-KR",
-    "Vietnamese": "vi-VN",
+    
 }
 
 # Create the root window
