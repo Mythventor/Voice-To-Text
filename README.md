@@ -28,7 +28,7 @@ pip install SpeechRecognition pydub
 ```
 
 ### 3. Install ffmpeg (OPTIONAL)
-If you would want to support other audio format other than '.wav'
+If you would want to support other audio format other than `.wav`
 
 #### On Window:
 Make sure `ffmpeg` is installed and accessible in your system's PATH. You can download `ffmpeg` from [ffmpeg](https://ffmpeg.org/), After downloading, unzip the folder and add the `bin` folder to your system's PATH environment variable.
