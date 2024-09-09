@@ -1,13 +1,17 @@
 [tool.poetry]
-name = "python-template"
+name = "speech-recognition-app"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A speech recognition application using Python"
+authors = ["Mythventhor (Mengpang)"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
 speechrecognition = "^3.10.4"
 pydub = "^0.25.1"
+tkinter = {version = "*", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
@@ -22,9 +26,3 @@ ignore = ['W291', 'W292', 'W293']
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-
-[tool.poetry.dependencies]
-python = ">=3.10.0,<3.12"
-speechrecognition = "^3.10.4"
-pydub = "^0.25.1"
