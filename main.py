@@ -62,7 +62,7 @@ languages = {
     "French": "fr-FR",
     "German": "de-DE",
     "Japanese": "ja-JP",
-    "Korean": "ko-KR"
+    "Korean": "ko-KR",
     "Vietnamese": "vi-VN",
 }
 
