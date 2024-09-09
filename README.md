@@ -21,18 +21,18 @@ cd Voice-To-Text
 ```
 ### 2. Install Dependencies
 Use pip to install the required libraries:
-'''bash
+```bash
 pip install SpeechRecognition pydub
-'''
+```
 
 ### 3. Install ffmpeg (OPTIONAL)
 If you would want to support other audio format other than '.wav'
 Make sure ffmpeg is installed and accessible in your system's PATH. You can download ffmpeg from ffmpeg.org
 
 ### 4. Run the Application
-'''bash
+```
 python main.py
-'''
+```
 
 
 
