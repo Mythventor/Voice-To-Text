@@ -10,7 +10,7 @@ This is a speech recognition application using Python. It allows users to select
 
 ## Requirements
 - Python 3.10 or higher
-- `ffmpeg` for audio format conversion (ONLY if you would want to use additional audio format other than '.wav')
+- `ffmpeg` for audio format conversion (ONLY if you would want to use additional audio format other than `.wav`)
 
 ## Installation
 
