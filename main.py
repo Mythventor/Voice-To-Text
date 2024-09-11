@@ -61,12 +61,11 @@ languages = {
     "English (US)": "en-US",
     "English (UK)": "en-GB",
     "Mandarin (Simplified)": "zh-CN",
-    "Vietnamese": "vi-VN",
     "Spanish": "es-ES",
     "German": "de-DE",
     "Japanese": "ja-JP",
     "Korean": "ko-KR",
-    
+    "Vietnamese": "vi-VN",
 }
 
 # Create the root window
