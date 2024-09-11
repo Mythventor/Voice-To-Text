@@ -54,6 +54,8 @@ def start_recognition():
 
 # Supported languages
 languages = {
+    "Arabic (Egypt)": "ar-EG",
+    "Arabic (Saudi Arabia)": "ar-SA",
     "English (US)": "en-US",
     "English (UK)": "en-GB",
     "Cantonese (Traditional)": "yue-Hant",
@@ -79,7 +81,7 @@ language_menu = tk.OptionMenu(root, language_var, *languages.keys())
 language_menu.grid(row=0, column=1, padx=10, pady=10)
 
 select_button = tk.Button(root, text="Select Audio File", command=start_recognition)
-select_button.grid(row=1, columnspan=2, pady=20)
+select_button.grid(row=1, columnspan=4, pady=20)
 
 # Create a scrolled text box to display recognized text
 result_text = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=50, height=10)
